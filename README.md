@@ -80,7 +80,7 @@ This is a structured to-do list for building a basic boilerplate using **NestJS*
 ### 1. **Basic Setup**
 
 - [x] Install and configure **NestJS** with TypeScript.
-- [] Install **GraphQL** and integrate with NestJS.
+- [x] Install **GraphQL** and integrate with NestJS.
 - [] Install and configure **TypeORM** for database integration.
 - [] Set up a **PostgreSQL** database (or another supported database).
 
