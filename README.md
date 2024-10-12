@@ -44,11 +44,7 @@ yarn install
 3.  Setup environment variables: Create a .env file in the root directory of the project and add the following:
 
 ```bash
-DATABASE_HOST=localhost
-DATABASE_PORT=5432
-DATABASE_USERNAME=your_username
-DATABASE_PASSWORD=your_password
-DATABASE_NAME=your_database
+DATABASE_URL_WITH_SCHEMA='postgresql://localhost:5432/nest-gql-to?schema=nest-gql-to'
 ```
     
 4. Run the application:
@@ -81,13 +77,13 @@ This is a structured to-do list for building a basic boilerplate using **NestJS*
 
 - [x] Install and configure **NestJS** with TypeScript.
 - [x] Install **GraphQL** and integrate with NestJS.
-- [ ] Install and configure **TypeORM** for database integration.
-- [ ] Set up a **PostgreSQL** database (or another supported database).
+- [x] Install and configure **TypeORM** for database integration.
+- [x] Set up a **PostgreSQL** database.
 
 ### 2. **Basic Modules**
 
 - [ ] Create a `User` module with basic CRUD operations.
-- [ ] Add a **User Entity** using **TypeORM**.
+- [x] Add a **User Entity** using **TypeORM**.
 - [ ] Define GraphQL types and resolvers for the `User` module.
 - [ ] Implement basic user authentication (optional).
 
