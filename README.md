@@ -30,16 +30,16 @@ Installation
 
 1.  Clone the repository:
 ```bash
-   git clone https://github.com/asimkhan0/nest-gql-typeorm-boilerplate
-   cd nest-gql-typeorm-boilerplate
+git clone https://github.com/asimkhan0/nest-gql-typeorm-boilerplate
+cd nest-gql-typeorm-boilerplate
 ```
     
 2.  Install dependencies
 
 ```bash
-  npm install
-  #or
-  yarn install
+npm install
+#or
+yarn install
 ```
 3.  Setup environment variables: Create a .env file in the root directory of the project and add the following:
 
@@ -81,31 +81,31 @@ This is a structured to-do list for building a basic boilerplate using **NestJS*
 
 - [x] Install and configure **NestJS** with TypeScript.
 - [x] Install **GraphQL** and integrate with NestJS.
-- [] Install and configure **TypeORM** for database integration.
-- [] Set up a **PostgreSQL** database (or another supported database).
+- [ ] Install and configure **TypeORM** for database integration.
+- [ ] Set up a **PostgreSQL** database (or another supported database).
 
 ### 2. **Basic Modules**
 
-- [] Create a `User` module with basic CRUD operations.
-- [] Add a **User Entity** using **TypeORM**.
-- [] Define GraphQL types and resolvers for the `User` module.
+- [ ] Create a `User` module with basic CRUD operations.
+- [ ] Add a **User Entity** using **TypeORM**.
+- [ ] Define GraphQL types and resolvers for the `User` module.
 - [ ] Implement basic user authentication (optional).
 
 ### 3. **Database Configuration**
 
-- [] Set up TypeORM with configuration to connect to the database.
-- [] Create migrations to manage schema changes.
-- [] Seed the database with initial data (optional).
+- [ ] Set up TypeORM with configuration to connect to the database.
+- [ ] Create migrations to manage schema changes.
+- [ ] Seed the database with initial data (optional).
 
 ### 4. **GraphQL Schema**
 
-- [] Define a global GraphQL schema file.
-- [] Set up query and mutation resolvers for the `User` entity.
+- [ ] Define a global GraphQL schema file.
+- [ ] Set up query and mutation resolvers for the `User` entity.
 - [ ] Add basic error handling for GraphQL queries/mutations.
 
 ### 5. **Common Utilities**
 
-- [] Implement basic logging using NestJS built-in logger.
+- [ ] Implement basic logging using NestJS built-in logger.
 - [ ] Add common exception filters and guards.
 - [ ] Add middleware for request validation.
 
@@ -128,7 +128,7 @@ This is a structured to-do list for building a basic boilerplate using **NestJS*
 ### 9. **Documentation & Linting**
 
 - [ ] Add API documentation using **GraphQL Playground** or **Swagger**.
-- [] Ensure the project follows NestJS's coding conventions.
+- [ ] Ensure the project follows NestJS's coding conventions.
 - [ ] Add a linter to ensure code quality (`eslint`, `prettier`).
 
     
