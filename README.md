@@ -82,21 +82,21 @@ This is a structured to-do list for building a basic boilerplate using **NestJS*
 
 ### 2. **Basic Modules**
 
-- [ ] Create a `User` module with basic CRUD operations.
+- [x] Create a `User` module with basic CRUD operations.
 - [x] Add a **User Entity** using **TypeORM**.
-- [ ] Define GraphQL types and resolvers for the `User` module.
+- [x] Define GraphQL types and resolvers for the `User` module.
 - [ ] Implement basic user authentication (optional).
 
 ### 3. **Database Configuration**
 
-- [ ] Set up TypeORM with configuration to connect to the database.
-- [ ] Create migrations to manage schema changes.
+- [x] Set up TypeORM with configuration to connect to the database.
+- [x] Create migrations to manage schema changes.
 - [ ] Seed the database with initial data (optional).
 
 ### 4. **GraphQL Schema**
 
 - [ ] Define a global GraphQL schema file.
-- [ ] Set up query and mutation resolvers for the `User` entity.
+- [x] Set up query and mutation resolvers for the `User` entity.
 - [ ] Add basic error handling for GraphQL queries/mutations.
 
 ### 5. **Common Utilities**

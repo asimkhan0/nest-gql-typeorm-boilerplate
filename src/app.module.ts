@@ -7,17 +7,19 @@ import { join } from 'path';
 import { AppResolver } from './app.resolver';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { typeORMOptions } from './typeorm/data-source';
+import { UserModule } from './user/user.module';
 
 @Module({
   imports: [
     TypeOrmModule.forRoot(typeORMOptions),
     GraphQLModule.forRoot({
-    driver: ApolloDriver,
-    autoSchemaFile: join(process.cwd(), 'graphql/schema.gql'), // auto-generating schema
-    buildSchemaOptions: { dateScalarMode: 'timestamp' },
-    playground: true,
-  })],
+      driver: ApolloDriver,
+      autoSchemaFile: join(process.cwd(), 'graphql/schema.gql'), // auto-generating schema
+      buildSchemaOptions: { dateScalarMode: 'timestamp' },
+      playground: true,
+    }),
+    UserModule],
   controllers: [AppController],
   providers: [AppService, AppResolver],
 })
-export class AppModule {}
+export class AppModule { }
